@@ -567,13 +567,14 @@ body {
   }
 
   .logo-footer {
+    display: flex;
+    justify-content: center;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    display: inline-block;
     margin-bottom: 16px;
 
     color: var(--primary-brand-color);
@@ -596,7 +597,6 @@ body {
   }
 
   .second-container-footer {
-    margin-right: 80px;
   }
 
   .second-container-footer .social-list .social-list-link:hover,
@@ -611,6 +611,8 @@ body {
   }
 
   .second-text-footer {
+    display: flex;
+    justify-content: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -647,7 +649,13 @@ body {
 
   /* Footer-form  */
 
+  .footer-form-cont {
+    width: 100%;
+  }
+
   .footer-form-field-descr {
+    display: flex;
+    justify-content: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -658,17 +666,20 @@ body {
 
   .footer-form {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     position: relative;
     gap: 24px;
   }
 
   .footer-form-field-wrap {
-    /* margin-right: 24px; */
+    margin-bottom: 16px;
+    width: 100%;
   }
 
   .footer-form-input {
     width: 100%;
-    width: 264px;
     height: 40px;
     border: 1px solid var(--white-color);
     background-color: transparent;
@@ -764,6 +775,12 @@ body {
     color: var(--pressed-state-color);
   }
 
+  .page-contacts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+  }
+
   .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -791,10 +808,6 @@ body {
   .menu-contact-link:hover,
   .menu-contact-link:focus {
     color: var(--pressed-state-color);
-  }
-
-  .menu-contact-item {
-    margin-top: 12px;
   }
 
   .current {
