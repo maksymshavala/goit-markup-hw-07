@@ -549,17 +549,6 @@ body {
     color: var(--primary-brand-color);
   }
 
-  .contact-form-check-icon {
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 2px;
-    cursor: pointer;
-    margin-right: 8px;
-  }
-
-  .contact-form-check-mark-icon {
-    opacity: 0;
-  }
-
   .contact-form-checkbox-box {
     margin-bottom: 24px;
   }
@@ -600,7 +589,8 @@ body {
     opacity: 1;
   }
 
-  .contact-form-checkbox:focus + .contact-form-check-icon {
+  .contact-form-checkbox:focus + .contact-form-check-icon,
+  .contact-form-checkbox:hover + .contact-form-check-icon {
     outline: 1px solid rgba(77, 90, 229, 0.4);
   }
 
@@ -1319,17 +1309,6 @@ body {
     color: var(--primary-brand-color);
   }
 
-  .contact-form-check-icon {
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 2px;
-    cursor: pointer;
-    margin-right: 8px;
-  }
-
-  .contact-form-check-mark-icon {
-    opacity: 0;
-  }
-
   .contact-form-checkbox-box {
     margin-bottom: 24px;
   }
@@ -1370,7 +1349,8 @@ body {
     opacity: 1;
   }
 
-  .contact-form-checkbox:focus + .contact-form-check-icon {
+  .contact-form-checkbox:focus + .contact-form-check-icon,
+  .contact-form-checkbox:hover + .contact-form-check-icon {
     outline: 1px solid rgba(77, 90, 229, 0.4);
   }
 
@@ -2079,17 +2059,6 @@ body {
     color: var(--primary-brand-color);
   }
 
-  .contact-form-check-icon {
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 2px;
-    cursor: pointer;
-    margin-right: 8px;
-  }
-
-  .contact-form-check-mark-icon {
-    opacity: 0;
-  }
-
   .contact-form-checkbox-box {
     margin-bottom: 24px;
   }
@@ -2130,7 +2099,8 @@ body {
     opacity: 1;
   }
 
-  .contact-form-checkbox:focus + .contact-form-check-icon {
+  .contact-form-checkbox:focus + .contact-form-check-icon,
+  .contact-form-checkbox:hover + .contact-form-check-icon {
     outline: 1px solid rgba(77, 90, 229, 0.4);
   }
 
